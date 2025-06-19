@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0;
+}
+
+:root {
+    --transition: all 0.4s ease;
+    --border-radius: 10px;
+    --border-radius2: 5px;
+    --color: #f5f5f5;
+    --color-dark: #1e1e1e;
+    --font-tittle: 1.3rem;
+    --font-size: 1.1rem;
+    --font-size2: 0.9rem;
+}
+
+body{
+    background: transparent;
+    font-family: "Bai Jamjuree";
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+#hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    min-width: 50vh;
+    height: 100%;
+    padding: 60px;
+    background: #ffffff40;
+    backdrop-filter: blur(4px);
+    border: 2px solid #dededeee;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    width: 160px;
+}
+
+#form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#form h3, #form h3 a{
+    margin-top: 2px;
+    color: var(--color);
+    text-decoration: none;
+    font-size: var(--font-size2);
+    font-weight: 400;
+}
+
+#form h3 a{
+    text-decoration: underline;
+}
+
+#form p label{
+    font-size: var(--font-size);
+    font-weight: 500;
+    color: var(--color);
+}
+
+#form p input{
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid var(--color);
+    border-radius: var(--border-radius2);
+    background: #ffffffaa;
+    backdrop-filter: blur(3px);
+    margin-top: 2px;
+}
+
+#btn button{
+    color: var(--color);
+    background: transparent;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0px;
+    border: 2px solid var(--color);
+    margin-top: 20px;
+    transition: var(--transition);
+}
+
+#btn button:hover {
+    border-radius: 0 10px 0 10px;
+    transform: scale(1.05);
+}
