@@ -106,8 +106,6 @@ img{
     background: transparent;
     width: 120px;
     height: 35px;
-    font-size: 15px;
-    font-weight: 600;
     cursor: pointer;
     border-radius: 0px;
     border: 2px solid var(--color);
@@ -122,6 +120,7 @@ img{
 
 #user-msg{
     font-size: 13px;
+    color: var(--color);
 }
 
 /* responsividade */
