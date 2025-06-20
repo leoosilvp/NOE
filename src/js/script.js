@@ -17,28 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Theme Switcher
-    const themeButtons = document.querySelectorAll('.theme-btn');
-
-    themeButtons.forEach(button => {
-        button.addEventListener('click', function () {
-            const theme = this.getAttribute('data-theme');
-            document.documentElement.setAttribute('data-theme', theme);
-
-            // Update active button
-            themeButtons.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-
-            // Save theme preference
-            localStorage.setItem('theme', theme);
-        });
-    });
-
-    // Apply saved theme
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    document.querySelector(`.theme-btn[data-theme="${savedTheme}"]`).classList.add('active');
-
     // Carrossel de histórias
     const storiesCarousel = document.querySelector('.stories-carousel');
     if (storiesCarousel) {

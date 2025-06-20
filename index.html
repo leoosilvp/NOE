@@ -16,20 +16,23 @@
 
             <section id="form">
                 <p>
-                    <label for="task">User</label>
-                    <input type="text" id="task" placeholder="Seu Id">
+                    <label for="user">User</label>
+                    <input type="text" id="user" placeholder="Seu Id">
                 </p>
                 <p>
-                    <label for="task">Password</label>
-                    <input type="password" id="task" placeholder="Sua Senha">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Sua Senha">
                     <h3>não tem uma conta? | <a href="#">criar</a></h3>
                 </p>
             </section>
             <section id="btn">
-                <a href="./src/pages/inicio.html"><button type="submit">Login</button></a>
+                <button id="loginButton" type="submit">Login</button>
             </section>
+            <p id="errorMsg" style="color:red;"></p>
         </div>
+
+        <p id="user-msg" style="color:#fff;">User: admin | Senha: admin</p>
     </main>
-    
+    <script src="./src/js/login.js"></script>
 </body>
 </html>
