@@ -44,7 +44,7 @@ img{
     min-width: 50vh;
     height: 100%;
     padding: 60px;
-    background: #ffffff40;
+    background: #ffffff30;
     backdrop-filter: blur(4px);
     border: 2px solid #dededeee;
     border-radius: var(--border-radius);
@@ -122,4 +122,14 @@ img{
 
 #user-msg{
     font-size: 13px;
+}
+
+/* responsividade */
+@media (max-width: 920px){
+
+    .card{
+        min-width: 250px;
+        max-width: 300px;
+    }
+
 }

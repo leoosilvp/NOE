@@ -10,14 +10,7 @@
 # [noe.com.br](https://leoosilvp.github.io/NOE/)
 </div>
 
-# 🎯 Funcionalidades Principais
-
-### 📱 Interface Personalizável
-- **Troca de temas**:
-  - 🔴 Claro (padrão) - Ideal para ambientes bem iluminados
-  - ⚫ Escuro - Redução de brilho para uso noturno
-
-*Como usar:* Clique nos botões circulares no cabeçalho para alternar entre os temas. Sua preferência é salva automaticamente!
+# 🎯 Funcionalidade Principai
 
 ### 🖼️ Carrossel Interativo
 Apresentação visual da solução com:
